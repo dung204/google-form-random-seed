@@ -1,0 +1,21 @@
+{
+  "name": "google-forms",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/user-agents": "^1.0.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.2.0",
+    "axios": "^1.7.7",
+    "puppeteer": "^23.9.0",
+    "user-agents": "^1.1.367"
+  }
+}
